@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./../assets/style.css">
+    <script src="./../assets/Scripts/Test1.js"></script>
+    <title>Тест №1</title>
+</head>
+
+<body>
+    <section class="conteiner-block-main">
+        <div class="con-left">
+            <div class="conteiner-left">
+                <label class="bold main-text">Определение типа треугольника по трем его сторонам</label><br>
+                <label id="answer-info">Вы нашли 0/5 кейсов</label><br>
+                <label id="error-info">Вы нашли 0/5 ошибок</label>
+                <div class="list_answer">
+                    <div class="case-error">Ошибка - ??? ??? ???</div>
+                    <div class="case-error">Ошибка - ??? ??? ???</div>
+                    <div class="case-error">Ошибка - ??? ??? ???</div>
+                    <div class="case-error">Ошибка - ??? ??? ???</div>
+                    <div class="case-error">Ошибка - ??? ??? ???</div>
+                </div>
+                <div class="list_answer">
+                    <div class="case-answer">Кейс - ??? ??? ???</div>
+                    <div class="case-answer">Кейс - ??? ??? ???</div>
+                    <div class="case-answer">Кейс - ??? ??? ???</div>
+                    <div class="case-answer">Кейс - ??? ??? ???</div>
+                    <div class="case-answer">Кейс - ??? ??? ???</div>
+                </div>
+                <a id="button_next" class="disabled" href="./Ex2.html">Следующий тест</a>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <section class="conteiner-block">
+        <div class="conteiner-main">
+            <div class="answers">
+                <ul>
+                    <li>
+                        <label class="status" id="null"></label>
+                    </li>
+                    <li>
+                        <label>Сторона А</label>
+                        <input id="A"></input>
+                    </li>
+                    <li>
+                        <label>Сторона В</label>
+                        <input id="B"></input>
+                    </li>
+                    <li>
+                        <label>Сторона С</label>
+                        <input id="C"></input>
+                    </li>
+                    <button class="look" onclick="Check();">Проверить</button>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

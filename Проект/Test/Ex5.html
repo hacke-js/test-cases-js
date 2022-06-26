@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./../assets/style.css">
+    <script src="./../assets/Scripts/Test5.js"></script>
+    <title>Тест №5</title>
+</head>
+
+<body>
+
+    <section class="conteiner-block-main">
+        <div class="con-left">
+            <div class="conteiner-left">
+                <label class="bold main-text">Проверка, что строка состоит только лишь из букв(русских или
+                    латинских)</label><br>
+                <label id="error-info">Вы нашли 0/2 ошибок</label>
+                <div class="list_answer">
+                    <div class="case-error">Ошибка - ??? ??? ???</div>
+                    <div class="case-error">Ошибка - ??? ??? ???</div>
+                </div>
+                <a id="button_back" class="activ" href="./Ex4.html">Предыдущий тест</a>
+                <a id="button_next" class="disabled" href="./Ex6.html">Следующий тест</a>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+
+
+
+    <section class="conteiner-block">
+        <div class="conteiner-main">
+            <div class="answers">
+                <ul>
+                    <li>
+                        <label class="status" id="null"></label>
+                    </li>
+                    <li>
+                        <label></label>
+                        <input id="A"></input>
+                    </li>
+                </ul>
+                <button class="look" onclick="Check();">Проверить</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
